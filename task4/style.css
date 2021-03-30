@@ -1,0 +1,43 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+.input-element {
+    border: 1px solid blue;
+    margin: 2px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.btn-add {
+    border: 3px solid blue;
+    background-color: #2589b1;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-delete {
+    color: red;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#sum-label{
+    border: 1px solid orange;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 20px;
+}
